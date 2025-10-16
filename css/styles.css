@@ -6,7 +6,7 @@
     color: white;<br>
   font-size: 1.8em;}
 
-{ margin-top: 20px;<br>
+.image-r{ margin-top: 20px;<br>
   margin-left: 20px;<br>
   margin-bottom: 20px;}
 
@@ -31,7 +31,7 @@ footer {   background-color: #777;<br>
     clear: both;}
 
 
-{   list-style-type: none;<br>
+#header a#logo1 img{   list-style-type: none;<br>
     margin: 0;<br>
     padding: 0;<br>
     float: left;<br>
@@ -55,48 +55,52 @@ body {
     margin-left: 15px;}
 
 
-{ font-size: 2em;<br>
+h2 strong { font-size: 2em;<br>
   font-weight: 900;}
 
-#side-content {   float: right;<br>
+#side-content {   
+    float: right;<br>
     border: 2px solid blue;<br>
-  width: 300px;<br>
+    width: 300px;<br>
     padding: 5px;<br>
     background-color: white;<br>
     margin: 10px 0 10px 20px;}
 
- {   min-height: 150px;<br>
+{   
+    min-height: 150px;<br>
     width: 200px;<br>
     float: left;}
 
 
-{   float: left;<br>
+main nav ul li{   float: left;<br>
     width: 100%;<br>
     background-color: #333;}
 
-{   padding: 10px 25px;<br>
+#main-content {   padding: 10px 25px;<br>
     display: block;<br>
     text-decoration: none;<br>
     color: #ccc;}
 
 
-#main-nav{   
+main nav ul li a{   
     background-color: #ccc;<br>
     color: #333;}
 
 #page-wrapper{   
-    width: 960px;
+    width: 960px;<br>
     margin: 0 auto;<br>
     box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 1);<br>
     border-radius: 12px 12px 0px 0px; }
 
-{   
+main nav ul li a{   
     float: left;<br>
     position: relative;<br>
     right: 50%;}
 
-{       width: 960px;<br>
+#center {       
+    width: 960px;<br>
         text-align: center;}
 
-{       font-weight: 900;<br>
-        font-size: 48px;}
+strong { 
+    font-weight: 900;<br>
+    font-size: 48px;}
