@@ -1,4 +1,4 @@
-#main-nav ul{  
+#main-nav ul li{  
     list-style-type: none;<br>
     margin: 0;<br>
     padding: 0;<br>
@@ -19,7 +19,7 @@
     color: white;<br>
     font-size: 1.8em;}
 
-#man-nav ul li{   
+{   
     background-color: #ccc;<br>
     color: #333;}
 
@@ -102,7 +102,7 @@ h2 strong { font-size: 2em;<br>
     position: relative;<br>
     right: 50%;}
 
-#center {       
+#main-nav ul {       
     width: 960px;<br>
     text-align: center;}
 
